@@ -7,7 +7,9 @@ public class Cherry extends ToppingsDecorator {
 	public Cherry(IceCream iceCream) {
 		this.iceCream = iceCream;
 	}
-	
+	/*
+	* The toString and get Cost add the toppings when called so that it combines with the chosen ice Cream
+	*/
 	public String toString() {
 		return iceCream + ", bright red cherries";
 	}
